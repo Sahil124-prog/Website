@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<!-- saved from url=(0092)file:///C:/Users/LENOVO/AppData/Local/Microsoft/Windows/INetCache/IE/W6ASXFZJ/index2[1].html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        header {
+            background-image: url('https://images.pexels.com/photos/3052360/pexels-photo-3052360.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: left;
+            padding: 50px;
+            margin: 0;
+            height: 450px;
+        }
+
+        header h1 {
+            margin-top: 35px;
+            font-size: 4em;
+        }
+
+        header h3 {
+            font-size: 1.4em;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+
+        header button {
+            padding: 10px 20px;
+            font-size: 1.3em;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        nav {
+            background-color: rgb(54,54,54);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            margin: 20px 40px 20px 30px;
+            padding: 5px;
+            color: white;
+            text-align: center; /* Center the text */
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        
+        section {
+            background-color: white;
+            padding: 20px;
+            color: rgb(17, 24, 39);
+        }
+
+        section p{ 
+            font-size: 1.6em;
+            margin: 80px 5px 80px 35px;
+        }
+
+        .black-section {
+            background-color: rgb(30,30,30);
+            padding: 20px;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 90px 40px 90px 40px;
+        }
+
+        .box {
+            width: 30%;
+            text-align: center;
+            padding: 20px;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            margin: 20px;
+            border-radius: 15px;
+            
+            
+        }
+
+        .box1 {
+            background-image: url('https://images.pexels.com/photos/1813503/pexels-photo-1813503.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Replace with your image URL */
+            
+        }
+
+        .box2 {
+            background-image: url('image2.jpg'); 
+        }
+
+        .box3 {
+            background-image: url('https://media.istockphoto.com/id/92250839/photo/ribbons.jpg?s=612x612&w=0&k=20&c=snYtMhnsXPXvdC-M56eaIY_XJjKH8mIwiRtaQy0vAng='); /* Replace with your image URL */
+        }
+
+        .testimonial-section {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .testimonial {
+            margin-bottom: 20px;
+        }
+
+        .signature {
+            font-style: italic;
+            color: #333;
+        }
+
+        
+        .about-us {
+            background-color: white;
+            padding: 20px;
+            color: black;
+            margin: 20px 20px ;
+            font-size: 1.2em;;
+        }
+        
+        .pricing-section {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            text-align: center;
+            margin: 20px;
+            border-radius: 15px;
+            font-size: 1.2em;
+
+        }
+
+        .pricing-box {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px;
+        }
+
+        .pricing-section {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            text-align: center;
+            margin: 20px;
+            border-radius: 15px;
+        }
+
+        .pricing-box {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .pricing-box div {
+            width: 30%;
+            text-align: center;
+            border: 1px solid #333;
+            padding: 20px;
+            border-radius: 15px;
+            box-sizing: border-box;
+            margin: 10px;
+        }
+
+        .contact-section {
+            background-color: rgb(227, 227, 227);
+            color: black;
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        .contact-info {
+            width: 45%;
+            box-sizing: border-box;
+        }
+
+        .contact-form {
+            width: 45%;
+            box-sizing: border-box;
+            
+        }
+
+        .contact-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            font-weight: 600;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+        }
+
+        footer h1 {
+            margin: 0;
+            
+        }
+
+        footer h4,
+        footer h2 {
+            margin: 0;
+            color: beige;
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h1>Event Hub</h1>
+        <ul>
+            <li><a href="#home1">Home</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="C:\Users\LENOVO\OneDrive\Desktop\html project\project.html" target="_blank">Login</a></li>
+            <li><a href="#Pricing">Pricing</a></li>
+            <li><a href="#aboutus">About</a></li>
+        </ul>
+    </nav>
+     
+    <header id="home1">
+        <div>
+            <h1>Create Unforgettable <br>Events</h1>
+            <h3>Let us handle every detail of your event planning.<br> From concept to execution, we make it memorable.</h3>
+            <button>Get Started</button>
+        </div>
+    </header>
+
+    <section>
+        <p>
+            Introducing EventHub, your go-to solution for seamless event planning. Based in<br> Ludhiana, PB, our expert team is dedicated to transforming your vision into<br> unforgettable experiences. With our meticulous attention to detail and extensive<br> network of trusted vendors, we ensure flawless execution of every event, be it a<br> corporate conference, wedding, or social gathering. From conceptualization to<br> execution, EventHub is committed to delivering exceptional results that exceed<br> expectations. Let us handle the logistics while you focus on creating lasting memories.
+        </p>
+    </section>
+
+    <div class="black-section">
+        <div class="box box1">
+            <h1>Comprehensive Event Management</h1>
+            <h3>We handle every aspect of your event, from planning to execution, ensuring a seamless experience.</h3>
+        </div>
+        <div class="box box2">
+            <h1>Expert Venue Selection</h1>
+            <h3>Trust our experienced team to find the perfect venue that aligns with your vision and budget.</h3>
+        </div>
+        <div class="box box3">
+            <h1>Creative Theme Design</h1>
+            <h3>Our talented designers create unique and captivating event themes that leave a lasting impression.</h3>
+        </div>
+    </div>
+
+    <section class="testimonial-section">
+        <div class="testimonial">
+            <p>
+                EventHub made my event in Pune absolutely unforgettable! Their<br> exceptional event planning skills and attention to detail ensured a<br> seamless experience from start to finish. Thank you EventHub for<br> creating magical memories!
+            </p>
+        </div>
+        <div class="signature">
+            - Sophia
+        </div>
+    </section>
+
+    <div class="pricing-section" id="Pricing">
+        <h1>Our Pricing</h1>
+        <div class="pricing-box">
+            <div class="pricing-box1">
+                <h1>Basic</h1>
+                <h3>For small events</h3>
+                <h2>$99</h2>
+            </div>
+            <div class="pricing-box2">
+                <h1>Standard</h1>
+                <h3>For medium-sized events</h3>
+                <h2>$199</h2>
+            </div>
+            <div class="pricing-box3">
+                <h1>Premium</h1>
+                <h3>For large events</h3>
+                <h2>$299</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-us" id="aboutus">
+        <h1>About Us</h1>
+        <p>
+            Welcome to EventHub, your premier destination for all your event planning needs. With our headquarters located in <strong>Ludhiana(PB),</strong> we are dedicated to providing exceptional event planning services that will exceed your expectations.<br><br>At EventHub, we understand the importance of creating memorable experiences for our clients. Our team of experienced professionals is committed to delivering innovative and personalized event solutions that will make your event stand out. Whether you are planning a corporate function, wedding, or any other special occasion, we have the expertise and resources to bring your vision to life. Trust EventHub to handle every detail of your event, ensuring a seamless and stress-free experience from start to finish.
+        </p>
+    </div>
+
+    <div class="contact-section" id="contact">
+        <div class="contact-info">
+            <h1>Contact Us Today</h1>
+            <p>Fill out the form below to get in touch with us. We're here to help and answer any questions you may have about our event planning services.</p>
+        </div>
+        <div class="contact-form">
+            <form>
+                Name<input type="text" placeholder="Enter Your Name">
+                E-Mail<input type="email" placeholder="Enter Your Email">
+                Message<input type="text" placeholder="What do you want to convey to us">
+            </form>
+            <button>Submit</button>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <h1>EventHub</h1>
+            <h4> &copy; All copyrights reserved</h4>
+        </div>
+        <div>
+            <h2>Made by Tarun, Sahil &amp; Abhinav</h2>
+        </div>
+    </footer>
+
+
+
+</body></html>
